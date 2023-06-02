@@ -1,0 +1,52 @@
+.registerdiv {
+  max-width: 1170px;
+  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10.7236px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 154px;
+  align-content: center;
+  align-items: center;
+  padding-inline: 54px;
+  margin-inline: 135px;
+  font-family: "Manrope", sans-serif;
+  padding-block: 20px;
+}
+span {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+  color: #0e0e0e;
+}
+.registerdiv p {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 45px;
+  color: #000000;
+}
+.registerbtn {
+  width: 189.14px;
+  height: 59.4px;
+  background: #000000;
+  border-radius: 40px;
+  border: none;
+}
+@media (max-width: 900px) {
+  .registerdiv {
+    flex-direction: column;
+    justify-content: unset;
+    gap: 40px;
+    margin-inline: 40px;
+    margin-top: 20px;
+  }
+  .registerdiv p {
+    line-height: 35px;
+    font-size: 18px;
+  }
+  span {
+    font-size: 10px;
+    line-height: 20px;
+  }
+}

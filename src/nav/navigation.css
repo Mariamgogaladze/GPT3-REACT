@@ -1,0 +1,171 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Manrope", sans-serif;
+  padding-top: 30px;
+  margin-left: auto;
+  max-width: 1170px;
+  margin-right: auto;
+}
+.logo-image {
+  width: 62.56px;
+  height: 16.02px;
+}
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 34px;
+}
+.nav-item {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  cursor: pointer;
+}
+a:hover {
+  color: #00fcf0;
+}
+button {
+  font-size: 18px;
+  width: 152px;
+  height: 58px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.signin-button:hover {
+  border: 0.5px solid whitesmoke;
+}
+
+.signup-button {
+  background-color: #ff4820;
+}
+.signup-button:hover {
+  background-color: #00fcf0;
+}
+.signin-button {
+  color: white;
+  background-color: transparent;
+}
+.signin-button:hover {
+  background-color: #00fcf0;
+  border: none;
+}
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+.menu-icon {
+  display: none;
+}
+.close-icon {
+  display: none;
+}
+
+.signin {
+  display: none;
+}
+.signup {
+  display: none;
+}
+
+@media (max-width: 1220px) {
+  .button-container {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .nav-list {
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-left: 80px;
+    padding-bottom: 40px;
+    min-width: 210px;
+    gap: 15px;
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    border-radius: 20px;
+    background-color: #031b34;
+    display: none;
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+      both;
+    animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  }
+  button {
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+  }
+
+  @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+      transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+      transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+
+  .nav-item {
+    line-height: 25px;
+  }
+
+  .close-icon {
+    display: block;
+    width: 40px;
+    cursor: pointer;
+  }
+
+  .nav-list.show {
+    display: flex;
+  }
+  .menu-icon.hide {
+    display: none;
+  }
+  .signin {
+    background-color: #ff4820;
+    display: unset;
+  }
+  .signin:hover {
+    background-color: transparent;
+    border: 1px solid white;
+  }
+  .signup {
+    background-color: transparent;
+    border: 1px solid white;
+    display: unset;
+  }
+  .signup:hover {
+    border: unset;
+    background-color: #00fcf0;
+    color: black;
+  }
+  .nav-container {
+    padding-inline: 50px;
+  }
+}
