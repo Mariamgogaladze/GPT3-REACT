@@ -17,7 +17,7 @@ Welcome to the GPT3 Web Application! This project showcases the capabilities of 
 
 ## Demo
 
-Check out the live demo of the GPT3 Web Application [here](https://your-demo-link.com](https://gpt3-react-applic.netlify.app/).
+Check out the live demo of the GPT3 Web Application [here] (https://your-demo-link.com](https://gpt3-react-applic.netlify.app/).
 
 1. Clone the repository:
 
