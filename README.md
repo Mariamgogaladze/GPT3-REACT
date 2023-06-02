@@ -11,9 +11,9 @@ Welcome to the GPT3 Web Application! This project showcases the capabilities of 
 
 ## Screenshots
 
-![Screenshot 1](/path/to/screenshot.png)
-![Screenshot 2](/path/to/screenshot1.png)
-![Screenshot 3](/path/to/screenshot2.png)
+![Screenshot 1](screenshot.png)
+![Screenshot 2](screenshot1.png)
+![Screenshot 3](screenshot2.png)
 
 ## Demo
 
